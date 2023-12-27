@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var a = 55.675
+	var b = 78.987
+	var c = 999
+	var d = complex(3, 8)
+	var ort = (complex(a, 0) + complex(b, 0) + complex(float64(c), 0) + d) / 4
+	fmt.Printf("%.3f , %.3f , %d , %v The average value of the numbers is: %.10v ", a, b, c, d, ort)
+}
