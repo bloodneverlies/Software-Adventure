@@ -3,7 +3,14 @@ package main
 import "fmt"
 
 func main() {
+	/*
+		num1 := 122
+		str1 := string(num1)
 
+		fmt.Printf("%v %T\n", num1, num1)
+		fmt.Println()
+		fmt.Printf("%v %T\n", str1, str1)
+	*/
 	var (
 		a       = 55.675
 		b       = 78.987
