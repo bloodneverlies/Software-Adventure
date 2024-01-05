@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	x := 999
+	y := 333
+
+	if true {
+		x := 111
+		y = 777
+		fmt.Println(x + y)
+	}
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(x * y)
+}
